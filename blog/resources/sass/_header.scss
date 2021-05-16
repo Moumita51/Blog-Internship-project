@@ -1,0 +1,125 @@
+body {
+    background-color: #fff;
+}
+.bg-light {
+    background-color: #fff !important;
+}
+.navbar {
+    opacity: 0.9;
+}
+.navbar-light {
+    background-color: #fff !important;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.32rem;
+    padding-bottom: 0.32rem;
+    margin-right: 0rem;
+    font-size: 1.125rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.singlebrand {
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  img{
+    position: fixed;
+    height: 80px;
+    width: 90px;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: 100;
+    opacity: .7;
+  }
+}
+nav {
+    #collapsibleNavbar {
+        justify-content: space-between;
+    }
+    button{
+        border: 2px solid #333!important;
+    }
+    img.brand {
+        height: 80px;
+        width: 90px;
+        top: 0;
+        left: 50%;
+        margin-left: -30px;
+        transform: translate(-50%, 0%);
+    }
+    
+    ul > li > a {
+        color: #333 !important;
+        font-size: 12px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+}
+
+// collapsing
+nav .navbar-collapse.collapsing ul,
+nav .navbar-collapse.show ul {
+    margin-top: 3rem;
+}
+nav .navbar-collapse.collapsing li a,
+nav .navbar-collapse.show li a {
+    padding: 0.5rem;
+    display: block;
+    justify-content: center;
+}
+nav .navbar-collapse.collapsing img,
+nav .navbar-collapse.show img {
+    display: none;
+}
+
+nav .navbar-collapse.show li a.active {
+    margin: 0;
+}
+
+//right-nav
+div.right-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+    .right-item {
+        display: flex;
+        justify-content: center;
+        .signin {
+            color: #333 !important;
+            background-color: #fff !important;
+            border: 1px solid #333;
+            border-radius: 10px !important;
+            box-shadow: 1px 1px 5px, -1px -1px 5px;
+            /* padding-right: 10px; */
+            margin-right: 10px;
+            font-size: 12px;
+            font-family: "Montserrat";
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        .register {
+            color: #fff !important;
+            border: 1px solid #333;
+            border-radius: 10px !important;
+            box-shadow: #333 1px 1px 5px, #333 -1px -1px 5px;
+            /* padding-right: 10px; */
+            font-size: 12px;
+            font-family: "Montserrat";
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+    }
+    .search-form {
+        margin-top: 15px;
+        input {
+            font-size: 12px !important;
+            border: none;
+            border-bottom: 3px solid #333;
+        }
+    }
+}

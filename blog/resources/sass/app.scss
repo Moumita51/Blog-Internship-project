@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'header';
+@import 'footer';
+@import 'home';
+@import 'slider';
+@import 'BlogPost';
+@import 'BlogShow';
+@import 'CommentPost';
+@import 'BlogDes';
+@import 'RelatedArticles';
+@import 'signstyle';
+@import 'LatestBlog';
+@import 'Profile';
+@import 'Map';
+@import 'Contact';
+@import 'category';
+@import 'EditProfile';

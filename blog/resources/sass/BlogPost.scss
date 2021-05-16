@@ -1,0 +1,59 @@
+//blogPost page
+form.blogPost{
+    color:red;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    .image-input{
+        #getImage{
+            display: none;
+        }
+        .getLabel{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 400px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px,-5px 0px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            text-transform: uppercase;
+            color: grey;
+        }
+    }
+    .title-input input{
+        margin-top: 50px;
+        display: flex;
+        width: 100%;
+        height: 40px;
+        color: black;
+    }
+    .description{
+        margin-top: 1.5rem;
+        display: block;
+        width: 100%;
+    }
+    button{
+        display: block;
+        margin-top: 20px;
+        background-color: orange;
+        color: white;
+        border: 2px white solid;
+        border-radius: 5px;
+        width: 100%;
+        height: 2rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+        
+        }
+        button:hover{
+            background-color: rgb(64, 133, 32);
+            height: 2.5rem;
+            font-size: 1.5rem;
+        }
+
+}

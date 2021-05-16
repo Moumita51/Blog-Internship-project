@@ -1,0 +1,74 @@
+
+footer.container {
+    position: relative;
+    top: 5vh;
+    height: 45px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    .left-footer {
+        width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        a{
+            color: #fff!important;
+            text-decoration: none;
+        }
+        a:hover{
+            transform: scaleX(1.2);
+            text-decoration: underline;
+        }
+    }
+    //brand
+    div.footer-brand {
+        //background-color: blue;
+        display: flex;
+        flex-direction: column;
+        :nth-child(1) {
+            color: grey;
+            width: 42px;
+            height: 19px;
+            margin: 0;
+            font-family: "Poppins";
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        :nth-child(2) {
+            width: 42px;
+            height: 22px;
+            margin: 0;
+            font-family: "Poppins";
+            font-size: 17px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    div.right-footer {
+        width: 33%;
+        display: flex;
+        justify-content: space-evenly;
+        a{
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a .icons{
+            background: white;
+            color: black;
+            padding: 2px;
+            width: 20px;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 50%;
+        } 
+        
+        
+    }
+}
